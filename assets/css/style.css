@@ -19,7 +19,6 @@ html {
 
 body {
     background-color: var(--white);
-    /* width: 1280px; */
 }
 
 h3 {
@@ -180,15 +179,6 @@ on the left and the paragraph, images and contact links  */
 }
 
 .content {
-  margin-left: 1rem;
-  width: 60%;
-  padding: 7px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: var(--slateGray);
-  text-align: left;
-}
-
-.content2 {
   margin-left: 1rem;
   width: 60%;
   padding: 7px;
