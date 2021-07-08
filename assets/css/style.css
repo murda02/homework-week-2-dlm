@@ -1,3 +1,4 @@
+/* These are color variable used through out the css file.   */
 :root {
     --lightBlue: #cde5fa;
     --lightOrange: #faddcd;
@@ -15,9 +16,10 @@ html {
     font-size: 62.5%;
   }
 
+
 body {
     background-color: var(--white);
-    width: 1280px;
+    /* width: 1280px; */
 }
 
 h3 {
@@ -33,7 +35,7 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--lightBlue);
     color: var(--slateGray);
-    width: 1280px;
+    width: 100%;
     height: 10rem;
 }
 
@@ -54,29 +56,32 @@ nav {
     align-items: center;
 }
 
+/* This takes away any decoration from the navbar links  */
 nav a {
     padding: 10px;
     text-decoration: none;
     color: var(--slateGray);
 }
 
+/* This applies an underline to the text when a user hovers over the navbar links */
 nav a:hover {
     text-decoration: underline;
     color: var(--darkBlue);
 }
 
+/* This sets the height of the banner image */
 .banner-img {
-    height: 8rem;
-    /* width: 100%; */
-
+    width: 100%;
 }
 
+/* This centers the images on the web page */
 .site-images {
   position: relative;
   text-align: center;
   color: white;
 }
 
+/* This places text in the bottom right of the banner image */
 .bottom-right {
   position: absolute;
   bottom: 12px;
@@ -88,6 +93,7 @@ nav a:hover {
   width: 21.5%;
 }
 
+/* This places text in the bottom right of the #1 work image */
 .bottom-right-1 {
   position: absolute;
   bottom: 27px;
@@ -98,6 +104,7 @@ nav a:hover {
   color: var(--slateGray);
 }
 
+/* This places text in the bottom right of the #2 work image */
 .bottom-right-2 {
   position: absolute;
   bottom: 26px;
@@ -108,6 +115,7 @@ nav a:hover {
   color: var(--slateGray);
 }
 
+/* This places text in the bottom right of the #3 work image */
 .bottom-right-3 {
   position: absolute;
   bottom: 26px;
@@ -118,6 +126,7 @@ nav a:hover {
   color: var(--slateGray);
 }
 
+/* This places text in the bottom right of the #4 work image */
 .bottom-right-4 {
   position: absolute;
   bottom: 26px;
@@ -128,6 +137,7 @@ nav a:hover {
   color: var(--slateGray);
 }
 
+/* This places text in the bottom right of the #5 work image */
 .bottom-right-5 {
   position: absolute;
   bottom: 26px;
@@ -138,61 +148,6 @@ nav a:hover {
   color: var(--slateGray);
 }
 
-.project-1 {
-  padding: 7px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: var(--lightBlue);
-  color: var(--slateGray);
-  position: absolute;
-  left: 54%;
-  width: 3%;
-  bottom: -31%;
-}
-
-.project-2 {
-  padding: 7px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: var(--lightBlue);
-  color: var(--slateGray);
-  position: absolute;
-  left: 39%;
-  width: 3%;
-  bottom: -70%;
-}
-
-.project-3 {
-  padding: 7px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: var(--lightBlue);
-  color: var(--slateGray);
-  position: absolute;
-  left: 64%;
-  width: 3%;
-  bottom: -70%;
-}
-
-.project-4 {
-  padding: 7px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: var(--lightBlue);
-  color: var(--slateGray);
-  position: absolute;
-  left: 39%;
-  width: 3%;
-  bottom: -108%;
-}
-
-.project-5 {
-  padding: 7px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: var(--lightBlue);
-  color: var(--slateGray);
-  position: absolute;
-  left: 64%;
-  width: 3%;
-  bottom: -108%;
-}
-
 .main {
   display: flex;
   justify-content: center;
@@ -200,8 +155,9 @@ nav a:hover {
 
 .container {
   width: 80vw;
-  /* media query for smaller screens shrinks from -> smaller */
 }
+
+/* This creates a row of content */
 .row {
   justify-content: center;
   display: flex;
@@ -210,6 +166,9 @@ nav a:hover {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: var(--slateGray);
 }
+
+/* This places the 'About Me', 'Work', & 'Contact' to the left side and creats the divding line between the text
+on the left and the paragraph, images and contact links  */
 .left-column {
   padding: 7px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -230,7 +189,7 @@ nav a:hover {
 
 .content2 {
   margin-left: 1rem;
-  width: 80%;
+  width: 60%;
   padding: 7px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: var(--slateGray);
@@ -253,18 +212,21 @@ nav a:hover {
   align-items: center;
 }
 
+/* This takes away any decoration from the contatc links  */
 address a {
   padding: 10px;
   text-decoration: none;
   color: var(--slateGray);
 }
 
+/* This applies an underline to the text when a user hovers over the contact links */
 address a:hover {
   text-decoration: underline;
   color: var(--darkBlue);
 }
 
-  @media screen and (max-width: 660px) {
+/* When the media is resized below 660px the nav bar no longer displays */  
+@media screen and (max-width: 660px) {
     nav {
       display: none;
     }

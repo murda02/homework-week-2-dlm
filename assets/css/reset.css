@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+/* This reset.css file resets the users browser so when the style.css file is applied users will see the correct css */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
