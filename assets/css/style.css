@@ -175,7 +175,8 @@ on the left and the paragraph, images and contact links  */
   color: var(--slateGray);
   display: flex;
   justify-content: flex-end;
-  border-right: 5px solid black
+  border-right: 5px solid black;
+  width: 30%
 }
 
 .content {
