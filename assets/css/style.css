@@ -85,6 +85,7 @@ nav a:hover {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: var(--lightBlue);
   color: var(--slateGray);
+  width: 21.5%;
 }
 
 .bottom-right-1 {
