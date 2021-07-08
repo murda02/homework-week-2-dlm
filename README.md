@@ -11,7 +11,7 @@ my strongest work and give possible future employers an idea of my talents, skil
 * Clickable images of my work (since I don't have any web apps yet, they are just placeholders)
 * I created links to all my contact information that opens in a new tab
 
-## GIF of portfolio
+## Screenshot of portfolio
 
 ![Portfolio Image](https://murda02.github.io/homework-week-2-dlm/assets/images/portfolio.jpg)
 
