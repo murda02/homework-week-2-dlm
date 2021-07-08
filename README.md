@@ -13,7 +13,7 @@ my strongest work and give possible future employers an idea of my talents, skil
 
 ## GIF of portfolio
 
-![Portfolio GIF](https://murda02.github.io/homework-week-2-dlm/assets/images/portfolio.gif)
+![Portfolio GIF](https://murda02.github.io/homework-week-2-dlm/assets/images/portfolio-sm.gif)
 
 ## Link to my web application:
 
