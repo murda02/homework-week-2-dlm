@@ -95,7 +95,7 @@ nav a:hover {
 /* This places text in the bottom right of the #1 work image */
 .bottom-right-1 {
   position: absolute;
-  bottom: 27px;
+  bottom: 17px;
   right: 81px;
   padding: 7px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -168,6 +168,16 @@ nav a:hover {
 
 /* This places the 'About Me', 'Work', & 'Contact' to the left side and creats the divding line between the text
 on the left and the paragraph, images and contact links  */
+.left-column-header {
+  padding: 7px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: var(--slateGray);
+  display: flex;
+  justify-content: flex-start;
+  border-right: 5px solid black;
+  width: 30%
+}
+
 .left-column {
   padding: 7px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -177,6 +187,7 @@ on the left and the paragraph, images and contact links  */
   border-right: 5px solid black;
   width: 30%
 }
+
 
 .content {
   margin-left: 1rem;
