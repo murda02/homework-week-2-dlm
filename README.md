@@ -6,7 +6,7 @@ This is my portfolio page. It highlights some of the best work I completed durin
 
 ## Features:
 
-* Clickable inks to sections of the web page (about me, work, contact & resume)
+* Clickable links to sections of the web page (about me, work, contact & resume)
 * The images of my work are clickable links that take you to the working app (FYI, the bottom 2 are placeholder, but will be updated soon)
 * When the user resizes the page, the layout is responsive and adapts to the selected viewport
 * The contact information at the bottome of the page are all clickable links 
