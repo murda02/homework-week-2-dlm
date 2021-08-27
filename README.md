@@ -11,7 +11,13 @@ This is my portfolio page. It highlights some of the best work I completed durin
 
 ## Screenshot of portfolio
 
-![Portfolio Image](https://murda02.github.io/homework-week-2-dlm/assets/images/portfolio.jpg)
+Desktop view:
+
+![Portfolio Desktop Image](https://murda02.github.io/homework-week-2-dlm/assets/images/portfolio.jpg)
+
+Mobile view:
+
+![Portfolio Mobile Image](https://murda02.github.io/homework-week-2-dlm/assets/images/mobile-view.png)
 
 ## Link to my web application:
 
