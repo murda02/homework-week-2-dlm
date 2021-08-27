@@ -24,7 +24,7 @@ Link to my [portfolio page](https://murda02.github.io/homework-week-2-dlm/)
 
 ## License
 
-MIT License
+[MIT License](https://github.com/murda02/homework-week-2-dlm/blob/main/LICENSE)
 
 ## Author
 
