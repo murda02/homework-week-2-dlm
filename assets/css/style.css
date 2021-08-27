@@ -27,6 +27,7 @@ h3 {
 
 p {
     margin-bottom: 1rem;
+    margin-top: 1.8rem;
 }
 
 header {
@@ -68,6 +69,16 @@ nav a:hover {
     color: var(--darkBlue);
 }
 
+p a {
+  text-decoration: none;
+  color: var(--slateGray);
+}
+
+p a:hover {
+  text-decoration: underline;
+    color: var(--darkBlue);
+}
+
 /* This sets the height of the banner image */
 .banner-img {
     width: 100%;
@@ -95,7 +106,7 @@ nav a:hover {
 /* This places text in the bottom right of the #1 work image */
 .bottom-right-1 {
   position: absolute;
-  bottom: 17px;
+  bottom: 67px;
   right: 81px;
   padding: 7px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -106,7 +117,7 @@ nav a:hover {
 /* This places text in the bottom right of the #2 work image */
 .bottom-right-2 {
   position: absolute;
-  bottom: 26px;
+  bottom: 67px;
   right: 54px;
   padding: 7px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -117,7 +128,7 @@ nav a:hover {
 /* This places text in the bottom right of the #3 work image */
 .bottom-right-3 {
   position: absolute;
-  bottom: 26px;
+  bottom: 67px;
   right: 51px;
   padding: 7px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -183,7 +194,7 @@ on the left and the paragraph, images and contact links  */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: var(--slateGray);
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   border-right: 5px solid black;
   width: 30%
 }
@@ -230,8 +241,51 @@ address a:hover {
 /* When the media is resized below 660px the nav bar no longer displays */  
 @media screen and (max-width: 660px) {
     nav {
+      display: flex;
+    }
+    .container {
+      display: flexbox;
+    }
+    .bottom-right {
       display: none;
     }
+    .bottom-right-1 {
+      display: none;
+    }
+    .bottom-right-2 {
+      display: none;
+    }
+    .bottom-right-3 {
+      display: none;
+    }
+    .bottom-right-4 {
+      display: none;
+    }
+    .bottom-right-5 {
+      display: none;
+    }
+    h3 {
+      font-size: 1.5rem;
+    }
+    header nav h1 {
+      font-size: 2.5rem;
+  }
+  nav .content {
+    font-size: 1rem;
+    display: flex;
+  }
+  .contact-me {
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-start;
+  }
+  address a {
+    display: flex;
+    flex-direction: column;
+  }
+  p {
+    font-size: .8rem;
+  }
   }
 
 
