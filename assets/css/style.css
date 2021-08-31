@@ -31,7 +31,7 @@ p {
 }
 
 header {
-    padding: 20px;
+    padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--lightBlue);
     color: var(--slateGray);
@@ -207,6 +207,16 @@ on the left and the paragraph, images and contact links  */
   width: 30%
 }
 
+.left-column-grid {
+  padding: 7px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: var(--slateGray);
+  display: flex;
+  justify-content: flex-end;
+  border-right: 5px solid black;
+  width: 64.8%
+}
+
 
 .content {
   margin-left: 1rem;
@@ -291,6 +301,9 @@ address a:hover {
   }
   p {
     font-size: .8rem;
+  }
+  .left-column-grid {
+    width: 65.5%
   }
   }
 
