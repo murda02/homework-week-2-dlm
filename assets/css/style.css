@@ -2,7 +2,7 @@
 :root {
     --lightBlue: #cde5fa;
     --lightOrange: #faddcd;
-    --white: #fff;
+    --whitesmoke: #F5F5F5;
     --slateGray: #708090; 
     --darkBlue: #345ab3;
 }
@@ -18,7 +18,7 @@ html {
 
 
 body {
-    background-color: var(--white);
+    background-color: var(--lightBlue);
 }
 
 h3 {
@@ -27,7 +27,7 @@ h3 {
 
 p {
     margin-bottom: 1rem;
-    margin-top: 1.8rem;
+    font-size: 17px;
 }
 
 header {
@@ -42,6 +42,11 @@ header {
  
 header nav h1 {
     font-size: 3.5rem;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 
 nav {
@@ -106,7 +111,7 @@ p a:hover {
   right: 0px;
   padding: 7px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: var(--lightBlue);
+  background-color: var(--whitesmoke);
   color: var(--slateGray);
   width: 21.5%;
 }
@@ -114,56 +119,39 @@ p a:hover {
 /* This places text in the bottom right of the #1 work image */
 .bottom-right-1 {
   position: absolute;
-  bottom: 67px;
-  right: 81px;
+  bottom: 50%;
+  right: 10%;
   padding: 7px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: var(--lightBlue);
-  color: var(--slateGray);
+  background-color: var(--whitesmoke);
+  color: black;
+  border: 2px solid black;
+  font-size: 20px;
 }
 
 /* This places text in the bottom right of the #2 work image */
 .bottom-right-2 {
   position: absolute;
-  bottom: 67px;
-  right: 54px;
+  bottom: 50%;
+  right: 10%;
   padding: 7px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: var(--lightBlue);
-  color: var(--slateGray);
+  background-color: var(--whitesmoke);
+  color: black;
+  border: 2px solid black;
 }
 
 /* This places text in the bottom right of the #3 work image */
 .bottom-right-3 {
   position: absolute;
-  bottom: 67px;
-  right: 51px;
+  bottom: 50%;
+  right: 10%;
   padding: 7px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: var(--lightBlue);
-  color: var(--slateGray);
-}
+  background-color: var(--whitesmoke);
+  color: black;
+  border: 2px solid black;
 
-/* This places text in the bottom right of the #4 work image */
-.bottom-right-4 {
-  position: absolute;
-  bottom: 26px;
-  right: 54px;
-  padding: 7px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: var(--lightBlue);
-  color: var(--slateGray);
-}
-
-/* This places text in the bottom right of the #5 work image */
-.bottom-right-5 {
-  position: absolute;
-  bottom: 26px;
-  right: 51px;
-  padding: 7px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: var(--lightBlue);
-  color: var(--slateGray);
 }
 
 .main {
@@ -198,7 +186,7 @@ on the left and the paragraph, images and contact links  */
 }
 
 .left-column {
-  padding: 7px;
+  padding-right: 60px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: var(--slateGray);
   display: flex;
@@ -236,7 +224,7 @@ on the left and the paragraph, images and contact links  */
   font-size: 2rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: start;
   flex-wrap: wrap;
   align-items: center;
 }
