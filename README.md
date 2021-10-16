@@ -15,15 +15,15 @@ This is my portfolio page. It highlights some of the best work I completed durin
 
 Desktop view:
 
-![Portfolio Desktop Image](https://murda02.github.io/homework-week-2-dlm/assets/images/portfolio.jpg)
+![Portfolio Desktop Image](https://murda02.github.io/portfolio/assets/images/portfolio.jpg)
 
 Mobile view:
 
-![Portfolio Mobile Image](https://murda02.github.io/homework-week-2-dlm/assets/images/mobile-view.png)
+![Portfolio Mobile Image](https://murda02.github.io/portfolio/assets/images/mobile-view.png)
 
 ## Link to my web application:
 
-Link to my [portfolio page](https://murda02.github.io/homework-week-2-dlm/)
+Link to my [portfolio page](https://murda02.github.io/portfolio)
 
 ## Technologies:
 
